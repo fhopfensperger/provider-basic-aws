@@ -1,0 +1,9 @@
+apiVersion: s3.aws.allianz.io/v1beta1
+kind: Bucket
+metadata:
+  name: fh-crossplane-test-bucket
+spec:
+  forProvider:
+    locationConstraint: us-east-1
+  providerConfigRef:
+    name: example

@@ -1,0 +1,20 @@
+/.cache
+/.work
+/_output
+cover.out
+/vendor
+/.vendor-new
+.registry
+/examples/providerconfig/creds.conf
+
+# ignore GoLand files (debug config etc...)
+/.idea
+
+# ignore vscode files (debug config etc...)
+/.vscode
+*debug*
+
+# ignore asdf local versions
+/.tool-versions
+
+
